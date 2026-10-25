@@ -4,6 +4,8 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/Interactive-Visualization-of-Sorting-Algorithms/",
+
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
